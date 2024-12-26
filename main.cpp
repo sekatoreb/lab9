@@ -1,11 +1,12 @@
-#include "std.h"
+#include <iostream>
 
 int main()
 {
-    int a,b;
-    cout << "enter a,b";
-    cin >>a>>b;
-    return 0;
-    //тут комментарий
-    cin >> a>>b; 
+    using namespace std;
+    int a, b, sum;
+    cout << "Enter a, b: ";
+    cin >> a >> b;
+    sum = a + b; 
+    cout << "Sum: " << sum; 
+    return 0; 
 }
