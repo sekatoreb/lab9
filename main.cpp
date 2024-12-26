@@ -7,4 +7,5 @@ int main()
     cin >>a>>b;
     return 0;
     //тут комментарий
+    cin >> a>>b; 
 }
